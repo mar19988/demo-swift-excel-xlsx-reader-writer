@@ -82,6 +82,7 @@
 		5D4DFB941F791E49009EED30 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5D4DFB971F791FFD009EED30 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		5D4DFB981F7923FA009EED30 /* demo.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.xlsx; sourceTree = "<group>"; };
+		5F7C3499273A6C270042C764 /* excelfile.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = excelfile.xlsx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 		5D4DFB491F791E0C009EED30 = {
 			isa = PBXGroup;
 			children = (
+				5F7C3499273A6C270042C764 /* excelfile.xlsx */,
 				5D4DFB981F7923FA009EED30 /* demo.xlsx */,
 				5D4DFB971F791FFD009EED30 /* Bridge.h */,
 				5D4DFB541F791E0C009EED30 /* Demo Swift Excel Xlsx Reader Writer */,
@@ -273,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -518,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-Writer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Bridge.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/XlsxReaderWriter/**";
 			};
 			name = Debug;
@@ -534,7 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-Writer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Bridge.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/XlsxReaderWriter/**";
 			};
 			name = Release;
@@ -548,7 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swift Excel Xlsx Reader Writer.app/Demo Swift Excel Xlsx Reader Writer";
 			};
 			name = Debug;
@@ -562,7 +565,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swift Excel Xlsx Reader Writer.app/Demo Swift Excel Xlsx Reader Writer";
 			};
 			name = Release;
@@ -575,7 +578,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Demo Swift Excel Xlsx Reader Writer";
 			};
 			name = Debug;
@@ -588,7 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joelparkerhenderson.Demo-Swift-Excel-Xlsx-Reader-WriterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "Demo Swift Excel Xlsx Reader Writer";
 			};
 			name = Release;
